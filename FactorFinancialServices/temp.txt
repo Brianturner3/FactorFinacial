@@ -1,0 +1,337 @@
+		<div class="section active" id="section0">
+			<div class="hero-section" id="myhero">
+				<div class="hero-section-text">
+					<h1>Header</h1>
+					<h5>subtitle about anything you like</h5>
+				</div>
+			</div>
+		</div>
+		<div class="section" id="section1">
+			<h1>This is section 1</h1>
+			<h1>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non nulla nam, sapiente veritatis incidunt ut quaerat eum et odio explicabo, numquam dignissimos illum dolorem animi, id fuga sunt expedita doloribus.
+			</h1>
+		</div>
+		<div class="section" id="section2">
+			<div class="intro">
+				<h1>Scroll Down</h1>
+				<p>And it will animate down to the first section</p>
+				<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus illo placeat sapiente quaerat ratione, natus dolor provident excepturi accusantium incidunt asperiores enim sequi voluptates, minus veniam, tenetur maiores, cum omnis!</h1>
+			</div>
+		</div>
+		<div class="section" id="section3">
+			<!-- Footer -->
+			<footer class="responsive-blog-footer" id="myFooter">
+				<div class="row">
+					<div class="medium-8 columns small-order-2 medium-order-1 about-container">
+						<div class="row">
+							<div class="hide-for-small-only medium-4 columns about-section">
+								<img src="http://placehold.it/250x250">
+							</div>
+							<div class="medium-8 columns about-section">
+								<h4> About Me</h4>
+								<p>paragraph about how amazing and awesome i am paragraph about how amazing and awesome i am paragraph about how amazing and awesome i am</p>
+								<a href="">Read More</a>
+							</div>
+						</div>
+					</div>
+					<div class="small-12 medium-4 columns small-order-1 medium-order-2 mailing-container">
+						<h4 class="mailing-list">Follow Us</h4>
+						<ul class="socialIcons">
+							<li><a href=""><img src="./images/socialIcons/closed-envelope-circle.svg" alt="" style="height:50px;width:50px;"></a></li>
+							<li><a href=""><img src="./images/socialIcons/facebook-logo-button.svg" alt="" style="height:50px;width:50px;"></a></li>
+							<li><a href=""><img src="./images/socialIcons/twitter-logo-button.svg" alt="" style="height:50px;width:50px;"></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="row columns flex-container align-justify">
+					<p>Copyright © 2017. All Rights Reserved</p>
+					<div class="up-arrow">
+						<a href="#top"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a>
+					</div>
+					<small>Designed by Bloomwood Studios</small>
+				</div>
+			</footer>
+		</div>
+
+		MODELS.HTML
+
+		<!-- Hero -->
+		<div class="section fp-section" id="section0">
+			<div class="row" style="text-align: center;">
+				<div class="columns medium-offset-1 medium-10 large-offset-2 large-8" id="hero-container-models">
+					<h4 style="font-weight: 900">Machines that work for you</h4>
+					<h3 style="font-weight: 200;">With our managed ATM services we can help increase your revenue.</h3>
+					<?xml version="1.0" encoding="utf-8"?>
+					<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+					<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+						 viewBox="0 0 960 560" style="enable-background:new 0 0 960 560;" xml:space="preserve">
+					<style type="text/css">
+						.st0{fill:none;stroke:#0B4F6C;stroke-miterlimit:10;}
+						.st1{fill:none;stroke:#20BF55;stroke-miterlimit:10;}
+						.st2{fill:none;stroke:#000000;stroke-miterlimit:10;}
+					</style>
+					<polygon id="XMLID_4_" class="st0" points="306.317,165.604 662.711,328.838 495.85,73.105 298.155,371.461 659.991,171.046 
+						387.027,97.59 554.795,388.691 294.528,227.271 653.643,136.585 "/>
+					<path id="XMLID_3_" class="st1" d="M350.445,117.335c97.743,125.669,216.896-12.101,216.896-12.101
+						C595.267,228.111,289.007,258.83,289.007,258.83l243.892,117.291l68.885-186.177l-302.537,221.55l158.235-162.977l-174.06-14.822
+						l166.628-3.724L400.713,88.478L481.7,232.765l126.6-86.572L468.667,249.521l126.6,70.747l-126.6-60.507l37.235,161.043
+						l-55.15-157.708"/>
+					<polyline id="XMLID_1_" class="st2" points="332.837,123.022 716.188,446.098 487.142,267.683 336.454,462.975 655.913,79.624 
+						494.375,252.011 512.458,472.619 489.553,74.802 476.293,255.628 702.928,221.874 320.782,297.82 530.54,242.367 "/>
+					</svg>
+
+				</div>
+			</div>
+		</div>
+
+		<!-- Main -->
+		<main>
+			<div class="section" id="section1">
+				<div class="row">
+					<div class="columns medium-offset-1 medium-10 large-offset-2 large-8" style="background:white;">
+						<div class="columns medium-12" id="text-container">
+							<h5 id="text-selection">Select a brand to view models</h5>
+							<hr>
+							<h6 id="select-Hyusong">Hyusong</h6>
+							<hr>
+							<h6 id="select-Triton">Triton</h6>
+						</div>
+
+						<div class="column medium-12" id="brand1-selection">
+							<div class="column small-12 medium-6 click-container">
+								<img class="item" src="http://placehold.it/250x300" id="img-1">
+								<div class="overlay" id="overlay-1">
+									<div class="hidden-text">Halo</div>					
+								</div>
+							</div>
+							<div class="column small-12 medium-6 click-container">
+								<img class="item" src="http://placehold.it/250x300" id="img-2">
+								<div class="overlay" id="overlay-2">
+									<div class="hidden-text">1500</div>					
+								</div>
+							</div>
+							<div class="column small-12 medium-6 click-container">
+								<img class="item" src="http://placehold.it/250x300" id="img-3">
+								<div class="overlay" id="overlay-3">
+									<div class="hidden-text">MX 4000W</div>					
+								</div>
+							</div>
+							<div class="column small-12 medium-6 click-container">
+								<img class="item" src="http://placehold.it/250x300" id="img-4">
+								<div class="overlay" id="overlay-4">
+									<div class="hidden-text">NH 2700T</div>					
+								</div>
+							</div>
+						</div>
+
+						<div class="column medium-12" id="brand2-selection">
+							<div class="column small-12 medium-6 click-container">
+								<img class="item" src="http://placehold.it/250x300" id="img-5">
+								<div class="overlay" id="overlay-5">
+									<div class="hidden-text">Traverse</div>					
+								</div>
+							</div>
+							<div class="column small-12 medium-6 click-container">
+								<img class="item" src="http://placehold.it/250x300" id="img-6">
+								<div class="overlay" id="overlay-6">
+									<div class="hidden-text">ARGO</div>					
+								</div>
+							</div>
+							<div class="column small-12 medium-6 click-container">
+								<img class="item" src="http://placehold.it/250x300" id="img-7">
+								<div class="overlay" id="overlay-7">
+									<div class="hidden-text">ARGO EG</div>					
+								</div>
+							</div>
+							<div class="column small-12 medium-6 click-container">
+								<img class="item" src="http://placehold.it/250x300" id="img-8">
+								<div class="overlay" id="overlay-8">
+									<div class="hidden-text">9100</div>					
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<!-- Slider Section -->
+		<section>
+			<div class="row">
+				<div class="columns medium-offset-1 medium-10 large-offset-2 large-8">
+					<div class="small-12 medium-12 slick-slider carousel-image">	
+						<div class="small-12"><img src="/images/bkg1.jpg" alt=""></div>
+						<div class="small-12"><img src="/images/bkg2.jpg" alt=""></div>
+						<div class="small-12"><img src="/images/bkg3.jpg" alt=""></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div  id="carousel-info" class="columns small-10 small-offset-1 medium-offset-2 medium-8 large-offset-4 large-5">
+					<h3>Find the right plan</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit asperiores blanditiis, corrupti magni. Quidem et id ut labore, fugit facere illo quaerat asperiores corporis quas hic, repellat repudiandae provident officia.</p>
+				<a href="atmOptions.html"><button id="button-1">Learn More</button></a>
+				</div>
+			</div>
+		</section>
+
+		<!-- Brand 1 Section -->
+		<!--<div class="section" id="section1">
+			<div class="row">
+				<div class="column medium-offset-1 medium-10 large-offset-0 large-12" style="background:white;">
+					<div class="columns medium-12 large-5" style="background:white;">
+						<img src="/images/Atms/hyusong-logo-min.jpg" class="logo">
+					</div>
+					<div class="column medium-12 large-7">
+						<div class="column small-12 medium-6 click-container">
+							<img class="item" src="http://placehold.it/200x300" id="img-1">
+							<div class="overlay" id="overlay-1">
+								<div class="hidden-text">Halo</div>					
+							</div>
+						</div>
+						<div class="column small-12 medium-6 click-container">
+							<img class="item" src="http://placehold.it/200x300" id="img-2">
+							<div class="overlay" id="overlay-2">
+								<div class="hidden-text">1500</div>					
+							</div>
+						</div>
+						<div class="column small-12 medium-6 click-container">
+							<img class="item" src="http://placehold.it/200x300" id="img-3">
+							<div class="overlay" id="overlay-3">
+								<div class="hidden-text">MX 4000W</div>					
+							</div>
+						</div>
+						<div class="column small-12 medium-6 click-container">
+							<img class="item" src="http://placehold.it/200x300" id="img-4">
+							<div class="overlay" id="overlay-4">
+								<div class="hidden-text">NH 2700T</div>					
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>-->
+
+		<!-- Brand 2 Section -->
+		<!--<div class="section" id="section1">
+			<div class="row">
+				<div class="column medium-offset-1 medium-10 large-offset-0 large-12" style="background:white;">
+					<div class="columns medium-12 large-5" style="background:white;">
+						<img src="/images/Atms/hyusong-logo-min.jpg" class="logo">
+					</div>
+					<div class="column medium-12 large-7">
+						<div class="column small-12 medium-6 click-container">
+							<img class="item" src="http://placehold.it/200x300" id="img-1">
+							<div class="overlay" id="overlay-1">
+								<div class="hidden-text">Halo</div>					
+							</div>
+						</div>
+						<div class="column small-12 medium-6 click-container">
+							<img class="item" src="http://placehold.it/200x300" id="img-2">
+							<div class="overlay" id="overlay-2">
+								<div class="hidden-text">1500</div>					
+							</div>
+						</div>
+						<div class="column small-12 medium-6 click-container">
+							<img class="item" src="http://placehold.it/200x300" id="img-3">
+							<div class="overlay" id="overlay-3">
+								<div class="hidden-text">MX 4000W</div>					
+							</div>
+						</div>
+						<div class="column small-12 medium-6 click-container">
+							<img class="item" src="http://placehold.it/200x300" id="img-4">
+							<div class="overlay" id="overlay-4">
+								<div class="hidden-text">NH 2700T</div>					
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>-->
+
+		
+		<!--<main>
+			<div id="fullpage">
+				<div class="section fp-section main-bkg" id="section0">
+					<div class="row">
+						<div class="columns medium-offset-1 medium-8 large-6" id="hero-container">
+							<h1>Let's Create Your Growth Strategy Together</h1>
+							<h4>With our managed ATM services we can help increase your revenue.</h4>
+							<button type="button" id="btn-more-info">Learn More</button>
+						</div>
+						<video width="320" height="240" autoplay loop>
+						  <source src="/images/card.mp4" type="video/mp4">
+						</video>
+					</div>
+				</div>
+				<div class="section" id="section1">
+					<div class="row">
+						<div class="columns small-order-2 small-12 large-6 info-constraint" id="sec-one">
+							<h1>Warranty</h1>
+							<h4>Factor Financial provides an extended<br>warranty beyond the manufacturer.</h4>
+						</div>
+						<div class="columns small-order-1 small-12 large-6" id="sec-two">
+							<a href="http://placehold.it"><img class="center-constraint" src="http://placehold.it/400x400"></a>
+						</div>
+					</div>
+				</div>
+				<div class="section" id="section2">
+					<div class="row">
+						<div class="columns small-order-2 small-12 large-6 info-constraint" id="sec-three">
+							<h1>Services</h1>
+							<h4>We offer full ATM placement, managment<br>and security services.</h4>
+						</div>
+						<div class="columns small-order-1 small-12 large-6" id="sec-four">
+							<a href="http://placehold.it"><img class="center-constraint" src="http://placehold.it/400x400"></a>
+						</div>
+					</div>
+				</div>
+				<div class="section" id="section3">
+					<div class="row">
+						<div class="columns small-order-2 small-12 large-6 info-constraint" id="sec-five">
+							<h1>Secure Services</h1>
+							<h4>Factor Financial offers an armoured car<br>ATM service for secure refills.</h4>
+						</div>
+						<div class="columns small-order-1 small-12 large-6" id="sec-six">
+							<a href="http://placehold.it"><img class="center-constraint" src="http://placehold.it/400x400"></a>
+						</div>
+					</div>
+				</div>
+				<div class="section fp-auto-height" id="section4">
+					<!-- Footer -->
+					<!--<footer class="responsive-blog-footer" id="myFooter">
+						<div class="row">
+							<div class="medium-8 columns small-order-2 medium-order-1 about-container">
+								<div class="row">
+									<div class="hide-for-small-only medium-4 columns about-section">
+										<img src="http://placehold.it/250x250">
+									</div>
+									<div class="medium-8 columns about-section">
+										<h4> About Me</h4>
+										<p>paragraph about how amazing and awesome i am paragraph about how amazing and awesome i am paragraph about how amazing and awesome i am</p>
+										<a href="">Read More</a>
+									</div>
+								</div>
+							</div>
+							<div class="small-12 medium-4 columns small-order-1 medium-order-2 mailing-container">
+								<h4 class="mailing-list">Follow Us</h4>
+								<ul class="socialIcons">
+									<li><a href=""><img src="./images/socialIcons/closed-envelope-circle.svg" alt="" style="height:50px;width:50px;"></a></li>
+									<li><a href=""><img src="./images/socialIcons/facebook-logo-button.svg" alt="" style="height:50px;width:50px;"></a></li>
+									<li><a href=""><img src="./images/socialIcons/twitter-logo-button.svg" alt="" style="height:50px;width:50px;"></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="row columns flex-container align-justify">
+							<p>Copyright © 2017. All Rights Reserved</p>
+							<div class="up-arrow">
+								<a href="#top"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a>
+							</div>
+							<small>Designed by Bloomwood Studios</small>
+						</div>
+					</footer>
+				<!--</div>
+			</div>
+		</main>-->

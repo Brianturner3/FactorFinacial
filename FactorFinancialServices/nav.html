@@ -1,0 +1,262 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Bloomwood Studios" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Factor Financial - Navbar</title>
+
+	<!-- Compressed CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/css/foundation.min.css" integrity="sha256-itWEYdFWzZPBG78bJOOiQIn06QCgN/F0wMDcC4nOhxY=" crossorigin="anonymous" />
+	 <style>
+	 	
+	 	.nav-bar {
+	 	  display: -webkit-flex;
+	 	  display: -ms-flexbox;
+	 	  display: flex;
+	 	  -webkit-justify-content: space-between;
+	 	      -ms-flex-pack: justify;
+	 	          justify-content: space-between;
+	 	  -webkit-align-items: center;
+	 	      -ms-flex-align: center;
+	 	          align-items: center;
+	 	  background: #2c3840;
+	 	  height: 75px;
+	 	  margin-bottom: 75px;
+	 	}
+
+	 	.nav-bar .nav-bar-logo {
+	 	  padding: 1.8rem;
+	 	}
+
+	 	.nav-bar li {
+	 	  background: #2c3840;
+	 	}
+
+	 	.nav-bar a {
+	 	  color: #fefefe;
+	 	  transition: color 0.2s ease-in;
+	 	}
+
+	 	.nav-bar a:hover {
+	 	  color: #a8b8c3;
+	 	}
+
+	 	@media screen and (max-width: 39.9375em) {
+	 	  .nav-bar {
+	 	    height: 53.57143px;
+	 	  }
+	 	}
+
+	 	.nav-bar .offcanvas-trigger {
+	 	  display: -webkit-flex;
+	 	  display: -ms-flexbox;
+	 	  display: flex;
+	 	  -webkit-align-items: center;
+	 	      -ms-flex-align: center;
+	 	          align-items: center;
+	 	  -webkit-justify-content: center;
+	 	      -ms-flex-pack: center;
+	 	          justify-content: center;
+	 	  padding: 1.6rem;
+	 	  color: #fefefe;
+	 	  text-transform: uppercase;
+	 	  background-color: #566d7c;
+	 	  transition: background-color 0.2s ease-in;
+	 	  cursor: pointer;
+	 	}
+
+	 	.nav-bar .offcanvas-trigger .offcanvas-trigger-text {
+	 	  margin-right: 0.25rem;
+	 	  margin-top: 0.25rem;
+	 	}
+
+	 	.nav-bar .offcanvas-trigger:hover {
+	 	  background-color: #6b879a;
+	 	}
+
+	 	@media screen and (max-width: 39.9375em) {
+	 	  .nav-bar .offcanvas-trigger {
+	 	    padding: 0.9rem;
+	 	  }
+	 	}
+
+	 	.multilevel-offcanvas {
+	 	  background: #222b31;
+	 	  padding: 20px;
+	 	  color: #fefefe;
+	 	}
+
+	 	.multilevel-offcanvas > .menu {
+	 	  margin-bottom: 1rem;
+	 	}
+
+	 	.multilevel-offcanvas .menu a {
+	 	  color: rgba(254, 254, 254, 0.6);
+	 	  padding-top: 7px;
+	 	  padding-bottom: 7px;
+	 	  transition: color 0.2s ease-in;
+	 	}
+
+	 	.multilevel-offcanvas .menu a:hover {
+	 	  color: #fefefe;
+	 	}
+
+	 	.multilevel-offcanvas .fa {
+	 	  color: #fefefe;
+	 	}
+
+	 	.multilevel-offcanvas .is-accordion-submenu-parent > a::after {
+	 	  border-color: rgba(254, 254, 254, 0.6) transparent transparent;
+	 	}
+
+	 	.multilevel-offcanvas .social-links {
+	 	  margin-left: 20px;
+	 	}
+
+	 	.multilevel-offcanvas .social-links li {
+	 	  margin-right: 5px;
+	 	}
+
+	 	.multilevel-offcanvas .social-links a:hover .fa {
+	 	  color: #bebebe;
+	 	  transition: color .2s ease-in;
+	 	}
+
+	 	.multilevel-offcanvas .social-links .fa {
+	 	  font-size: 2.2rem;
+	 	}
+
+	 	.body-info {
+	 	  text-align: center;
+	 	  color: #2c3840;
+	 	}
+
+	 	.body-info .button {
+	 	  margin: 1rem 0;
+	 	  padding: 0.85em 2em;
+	 	}
+
+	 	.is-open + .off-canvas-content .hamburger .line:nth-child(1),
+	 	.is-open + .off-canvas-content .hamburger .line:nth-child(3) {
+	 	  width: 12px;
+	 	}
+
+	 	.is-open + .off-canvas-content .hamburger .line:nth-child(1) {
+	 	  -webkit-transform: translateX(-5px) rotate(-45deg);
+	 	      -ms-transform: translateX(-5px) rotate(-45deg);
+	 	          transform: translateX(-5px) rotate(-45deg);
+	 	}
+
+	 	.is-open + .off-canvas-content .hamburger .line:nth-child(3) {
+	 	  -webkit-transform: translateX(-5px) rotate(45deg);
+	 	      -ms-transform: translateX(-5px) rotate(45deg);
+	 	          transform: translateX(-5px) rotate(45deg);
+	 	}
+
+	 	.hamburger .line {
+	 	  width: 20px;
+	 	  height: 2px;
+	 	  background-color: #fefefe;
+	 	  display: block;
+	 	  margin: 3px auto;
+	 	  transition: all 0.3s ease-in-out;
+	 	}
+
+	 	.hamburger .line:last-child {
+	 	  margin-bottom: 0;
+	 	}
+
+	
+	 </style>
+</head>
+<body>
+
+<div class="multilevel-offcanvas off-canvas position-right" id="offCanvasRight" data-off-canvas>
+
+  <ul class="vertical menu" data-accordion-menu>
+    <li><a href="#">SERVICES</a>
+      <ul class="menu vertical nested">
+        <li><a href="#">Brand</a></li>
+        <li><a href="#">Web Apps</a></li>
+        <li><a href="#">Mobile Apps</a></li>
+       </ul>
+    </li>
+    <li><a href="#">PRODUCTS</a>
+      <ul class="menu vertical nested">
+        <li><a href="#">Product 1</a></li>
+        <li><a href="#">Product 2</a></li>
+        <li><a href="#">Product 3</a></li>
+       </ul>
+     </li>
+    <li><a href="#">CITIES</a>
+      <ul class="menu vertical nested">
+        <li><a href="#">London</a></li>
+        <li><a href="#">New York</a></li>
+        <li><a href="#">Paris</a></li>
+       </ul>
+    </li>
+   </ul>
+  <ul class="vertical menu">
+    <li class="off-canvas-menu-item"><a href="#">Tour</a></li>
+    <li><a href="#">Login</a></li>
+    <li><a href="#">Register</a></li>
+    <li><a href="#">Pricing</a></li>
+    <li><a href="#">Support</a></li>
+  </ul>
+  <ul class="vertical menu">
+     <li><a href="#">Journal</a></li>
+     <li><a href="#">FAQ</a></li>
+     <li><a href="#">Terms & Conditions</a></li>
+     <li><a href="#">Careers</a></li>
+     <li><a href="#">Students</a></li>
+   </ul>
+  <ul class="menu simple social-links">
+    <li><a href="#" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+    <li><a href="#" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+    <li><a href="#" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
+    <li><a href="#" target="_blank"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a></li>
+  </ul>
+</div>
+
+<div class="off-canvas-content" data-off-canvas-content>
+  <div class="nav-bar">
+      <div class="nav-bar-left">
+        <a class="nav-bar-logo"><img class="logo" src="http://placehold.it/150x30"></a>
+      </div>
+      <div class="nav-bar-right">
+        <ul class="menu">
+          <li class="hide-for-small-only"><a href="#">TOUR</a></li>
+          <li class="hide-for-small-only"><a href="#">LOGIN</a></li>
+          <li>
+          <li>
+            <button class="offcanvas-trigger" type="button" data-open="offCanvasRight">
+              <span class="offcanvas-trigger-text hide-for-small-only">Menu</span>
+              <div class="hamburger">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+              </div>
+            </button>
+          </li>
+        </ul>
+    </div>
+  </div>
+  <div class="body-info">
+    <h4> Multilevel Off-Canvas </h4>
+    <a class="button disabled" href="#">Watch Video (coming soon)</a>
+   </div>
+ </div>
+
+
+
+
+	<!-- Javascript -->
+	<script src="./Foundation/js/vendor/jquery.js"></script>
+	<script src="./Foundation/js/vendor/foundation.js"></script>
+	<script src="./Foundation/js/vendor/what-input.js"></script>
+	<script>
+	  $(document).foundation();
+	</script>
+
+</body>
+</html>
